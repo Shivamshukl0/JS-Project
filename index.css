@@ -11,12 +11,20 @@ padding: 10px;
         grid-column: 1/3;
 }
 .b{
-        width: 500px;
-    height: 200px;
+        /* width: 500px; */
+    /* height: 200px; */
             grid-column: 1/3;
     border: 0px;
     background-color: white;
     color: black;
+        border-radius: 10px;
+    /* background-color: white; */
+    width: 560px;
+    height: 333px;
+    /* border: 5px solid rgb(10, 9, 16); */
+    line-height: 50px;
+    margin: 10px;
+    color: #3d087b;
 
 }
 .c{
@@ -91,10 +99,54 @@ a{
 .e{
         background-color: white;
     color: black;
+    display: flex;
 }
 .time{
     display: inline-block;
 }
 li{
     list-style: none;
+}
+.wakeup{
+    word-spacing: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    align-items: center;
+    line-height: 30px;
+}
+.Lunch{
+        word-spacing: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    align-items: center;
+    line-height: 30px;
+}
+.nap{
+      word-spacing: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    align-items: center;
+    line-height: 30px;
+}
+.night{
+      word-spacing: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    align-items: center;
+    line-height: 30px;
+}
+.time{
+        width: 80px;
+    color: #9140b5;
+    background-color: white;
+    height: 75px;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
 }

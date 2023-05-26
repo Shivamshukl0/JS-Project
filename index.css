@@ -97,9 +97,11 @@ a{
     list-style-image: image("./Project Media/clock_logo@2x.png");
 } */
 .e{
-        background-color: white;
+       background-color: white;
     color: black;
     display: flex;
+    align-items: center;
+    border: 0px;
 }
 .time{
     display: inline-block;
@@ -149,4 +151,37 @@ li{
     display: flex;
     align-items: center;
     font-size: 30px;
+}
+.h{
+padding: 10px;
+}
+.m{
+padding: 10px;
+
+}
+.s{
+padding: 10px;
+
+}
+.am{
+padding: 10px;
+
+}
+.ea{
+    width: 500px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 46px;
+    margin-top: -32px;
+    opacity: .8;
+}
+.eb{
+       width: 450px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 74px;
+    margin-top: -18px;
+    opacity: .3;
 }
